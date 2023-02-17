@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.profile-page {
+  margin: 80px 0;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.profile-title-container {
+  /* border: red 2px solid; */
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 0 0 60px 0;
+}
+
+.profile-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(65, 25, 127);
+  letter-spacing: 0.1em;
+}
+
+.profile-email {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(26, 27, 28);
+  margin: 20px 0 0 0;
+}
+
+.profile-buttons-container {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-buttons {
+  width: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.title-button {
+  margin: 0 0 0 40px;
+  font-family: 'Epilogue', sans-serif;
+  color: rgb(121, 125, 134);
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(121, 125, 134, 0.4);
+}

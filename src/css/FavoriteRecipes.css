@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.favorite-recipes {
+  margin: 62px 0 0 0;
+  font-family: 'Epilogue', sans-serif;
+  width: 360px;
+}
+
+.card-favorite {
+  display: flex;
+  margin: 20px;
+}
+
+.img-favorite {
+  width: 160px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.title-category-container{
+  width: 100%;
+}
+
+.buttons-fav-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+  position: relative;
+}
+
+.like-fav, .share-fav {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.no-items {
+  color: rgb(65, 25, 127);
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  margin: 50px 0;
+  position: absolute;
+  top: 250px;
+}
+
+.fav-copied {
+  background-color: rgb(252, 196, 54);
+  border-radius: 5px;
+  border-top: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  margin: 0 0 0 10px;
+  padding: 7px 5px 5px;
+  position: absolute;
+  right: 65px;
+  text-align: left;
+  text-transform: uppercase;
+  top: 55px;
+  width: 60px;
+}
+
+.fav-copied:after {
+  background-color: rgb(252, 196, 54);
+  content: '';
+  height: 10px;
+  left: 10px;
+  position: absolute;
+  top: -5px;
+  transform: rotate(45deg);
+  width: 10px;
+}
+

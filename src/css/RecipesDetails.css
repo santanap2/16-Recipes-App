@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap') ;
+
+.img-container {
+  contain: content;
+  height: 200px;
+  width: 360px;
+}
+
+.recipe-img {
+  filter: brightness(60%);
+  position: absolute;
+  top: -80px;
+  width: 360px;
+}
+
+.recipe-title-container {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: flex-start;
+  left: 60px;
+  position: absolute;
+  top: 90px;
+  width: 240px;
+  z-index: 10;
+}
+
+.recipe-title {
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.img-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: absolute;
+  top: 20px;
+  width: 360px;
+}
+
+.recipe-category {
+  align-items: center;
+  color: rgb(252, 196, 54);
+  contain: content;
+  display: flex;
+  flex-direction: row;
+  font-family: Epilogue , sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  gap: 10px;
+  height: 40px;
+  justify-content: center;
+}
+
+.recipe-category img {
+  height: 45px;
+  margin: 8px 0 0;
+  top: 25px;
+}
+
+.category-alcoholic {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.buttons-container button {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.buttons-container button img {
+  width: 24px;
+}
+
+.pop-up-copied {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border-top: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  color: rgb(252, 196, 54);
+  display: inline-block;
+  font-family: Epilogue , sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  margin: 0 0 0 10px;
+  padding: 7px 5px 5px;
+  position: absolute;
+  right: -5px;
+  text-align: right;
+  text-transform: uppercase;
+  top: 35px;
+  width: 60px;
+}
+
+.pop-up-copied:after {
+  background-color: aliceblue;
+  content: '';
+  height: 10px;
+  left: 40px;
+  position: absolute;
+  top: -5px;
+  transform: rotate(45deg);
+  width: 10px;
+}
+
+.ingredients-container, .instructions-container {
+  color: rgb(26, 27, 28);
+  display: flex;
+  flex-direction: column;
+  font-family: Epilogue , sans-serif;
+  gap: 15px;
+  padding: 20px;
+  width: 360px;
+}
+
+.video-container, .recommended-container {
+  color: rgb(26, 27, 28);
+  display: flex;
+  flex-direction: column;
+  font-family: Epilogue , sans-serif;
+  gap: 15px;
+  padding: 20px;
+  width: 360px;
+}
+
+.ingredients-title, .instructions-title, .video-title, .recommended-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 0 15px;
+}
+
+.ul-ingredients {
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.li-ingredient {
+  font-size: 14px;
+  line-height: 20px;
+  list-style: square;
+  margin: 0 0 0 20px;
+}
+
+
+.instructions {
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.video-yt {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  height: 180px;
+  width: 320px;
+}
+
+.recomended-recipes {
+  display: flex;
+  flex-flow: nowrap;
+  flex-direction: row;
+  gap: 15px;
+  margin: 0 0 52px;
+  overflow-x: auto;
+  width: 330px;
+}
+
+.start-recipe-button {
+  background-color: rgb(252, 196, 54);
+  border: none;
+  border-radius: 5px;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  font-family: Epilogue , sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 0.1em;
+  margin: 0 12px 12px;
+  position: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  width: 336px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.start-recipe-button:hover {
+  background-color: rgb(212, 156, 14);
+}
